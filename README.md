@@ -30,7 +30,7 @@ curl -fsSL https://raw.githubusercontent.com/lokinyauv-create/OpenVR-SpaceSync/l
 - Space Calibrator вимикається, поки стоїть SpaceSync (два калібратори заважають один одному); після видалення вмикається знову. / Space Calibrator is switched off while SpaceSync is installed and turned back on when you uninstall.
 - Мову можна вибрати в налаштуваннях (English, 日本語, 中文, Українська). / Pick the language in Settings.
 - Увімкнення базових станцій через Bluetooth на Linux поки немає. / Powering base stations over Bluetooth is not available on Linux yet.
-- Перевірено / Tested: Fedora, Quest 3 через Steam Link, контролери Index, трекери Vive, нативний SteamVR.
+- Перевірено / Tested: Fedora, Quest 3 через Steam Link, контролери Index, трекери Lighthouse, нативний SteamVR.
 
 Ліцензія AGPL-3.0, подробиці змін — у [NOTICE.md](NOTICE.md). / License AGPL-3.0, what changed is in [NOTICE.md](NOTICE.md).
 
