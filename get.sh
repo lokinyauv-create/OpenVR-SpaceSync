@@ -32,3 +32,5 @@ echo "• Downloading / Завантажую SpaceSync"
 curl -fL --progress-bar -o "$tmp/$ASSET" "https://github.com/$REPO/releases/latest/download/$ASSET"
 tar -xzf "$tmp/$ASSET" -C "$tmp"
 bash "$tmp/SpaceSync-linux/linux/install.sh"
+# Release tag, so VR Auto Launcher can tell which version is installed.
+[ -f "$tmp/SpaceSync-linux/VERSION" ] && cp "$tmp/SpaceSync-linux/VERSION" "$APP/VERSION" || true
